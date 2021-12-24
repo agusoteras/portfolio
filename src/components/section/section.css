@@ -1,7 +1,7 @@
 .section {
         height: 600px;
         width: 100%;
-        background: linear-gradient(60deg, rgb(85, 228, 97), rgb(157, 240, 175));
+        background: linear-gradient(80deg, rgba(21, 155, 21, 0.596), rgb(167, 219, 177));
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -14,11 +14,12 @@
         font-weight: bolder;
         letter-spacing: 2px;
         padding: 0px;
-        margin: 0px;
+        margin-top: -30px;
         color: black;
 }
 .section h2:hover {
-        font-size: 255%;
+        font-size: 270%;
+        color: green;
 }
 .carousel {
         width: 683px;

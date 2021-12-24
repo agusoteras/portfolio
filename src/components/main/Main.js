@@ -23,6 +23,7 @@ const Main = () => {
                             <Route path="/profile">
                                 <div className='container profile'>
                                     <p>Hola! mi nombre es Agu, soy un desarrollador Frontend de la ciudad de Cordoba, Argentina. Me especializo en la programacion con React.js tanto de aplicaciones como de sitios web y estoy en busca de mi primera experiencia profesional en el ambito de la programación, espero que podamos trabajar juntos!  </p>
+                                    <button className='btn btn-dark'>Download CV</button>
                                 </div>
                             </Route>
 

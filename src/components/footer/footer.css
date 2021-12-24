@@ -1,0 +1,24 @@
+.footer {
+    height: 7rem;
+        width: 100%;
+        background: linear-gradient(0deg, rgb(0, 0, 0), rgb(20, 32, 20));
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.footer a:hover {
+    color: green;
+}
+.footer p {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+}
