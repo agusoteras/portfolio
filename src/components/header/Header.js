@@ -7,13 +7,13 @@ const Header = () => {
             <nav> 
                 <ul className='ul'>
                     <li className='btn btn-dark'>
-                        <a href='#'>About</a>
+                        <a href='#about'>About</a>
                     </li>
                     <li className='btn btn-dark'>
-                        <a href='#'>Portfolio</a>
+                        <a href='#portfolio'>Portfolio</a>
                     </li>
                     <li className='btn btn-dark'>
-                        <a href='#'>Contact</a>
+                        <a target="_blank" href='https://github.com/agusoteras'>GitHub</a>
                     </li>
                 </ul>
             </nav>

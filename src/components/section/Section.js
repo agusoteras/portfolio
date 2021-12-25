@@ -8,7 +8,7 @@ import port from "../../assets/port.png"
 
 const Section = () => {
     return (
-        <div className='section'>
+        <div id='portfolio' className='section'>
 <h2>My repositories!</h2>
 
 <Carousel className='carousel' fade>

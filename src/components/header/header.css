@@ -58,7 +58,7 @@ a:hover {
     padding-bottom: 14px;
     margin: auto;
     animation-name: title;
-    animation-duration: 4s;
+    animation-duration: 6s;
 }
 @keyframes title {
     0% {letter-spacing: -8px;}
@@ -75,3 +75,57 @@ a:hover {
     font-size: 2.1rem;
 }
 
+/* MEDIA QUERIES */ 
+
+@media screen and (max-width:799px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .titles {
+        padding-bottom: 32%;
+    }
+    .titles h1{
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-bottom: 35px;
+        padding-top: 20px;
+    }
+    .titles h1:hover {
+        color: rgba(43, 153, 0, 0.856);
+        font-size: 2.5rem;
+    }
+    .titles h4 {
+        font-size: 1.4rem;
+    }
+    .titles h4:hover {
+        font-size: 1.5rem;
+    }
+    .titles a {
+        padding: 6px;
+        margin-top: 5px;
+        text-decoration: none;
+        font-size: 130%;
+    }
+    .titles a:hover {
+        font-size: 135%;
+    }
+    .header ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-right: 0rem;
+        padding-left: 0%;
+        padding-top: 0rem;
+    }
+    .ul a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: smaller;
+        padding: 0px;
+    }
+}

@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom"
 const Main = () => {
     return (
         <Router>
-                <div className='main'> 
+                <div id='about' className='main'> 
                  <div className='picture'>
                       <img src={profile}></img>
                  </div>
@@ -22,13 +22,13 @@ const Main = () => {
                         <Switch>
                             <Route path="/profile">
                                 <div className='container profile'>
-                                    <p>Hola! mi nombre es Agu, soy un desarrollador Frontend de la ciudad de Cordoba, Argentina. Me especializo en la programacion con React.js tanto de aplicaciones como de sitios web y estoy en busca de mi primera experiencia profesional en el ambito de la programación, espero que podamos trabajar juntos!  </p>
-                                    <button className='btn btn-dark'>Download CV</button>
+                                    <p>Hola! mi nombre es Agu, soy un desarrollador Frontend de la ciudad de Cordoba, Argentina. Me especializo en la programacion con React.js tanto de aplicaciones como de sitios web y estoy en busca de experiencia profesional para desarrollar mi carrera en el mundo de la programación, espero que podamos trabajar juntos!  </p>
+                                    <a href='../../assets/curriculum.pdf' download="Curriculum.pdf" className='btn btn-dark'>Download CV</a>
                                 </div>
                             </Route>
 
                             <Route path="/skills">
-                                <div className='constainer-fluid icons'>
+                                <div className='container-fluid icons'>
                                       <i class="fab fa-html5"><br></br> HTML</i>
                                       <i class="fab fa-css3"><br></br> CSS</i>
                                       <i class="fab fa-js"><br></br> JavaScript</i>
