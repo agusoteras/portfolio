@@ -14,52 +14,95 @@
         font-weight: bolder;
         letter-spacing: 2px;
         padding: 0px;
-        margin-top: -30px;
         color: black;
+        margin-top: 30px;
 }
 .section h2:hover {
         font-size: 290%;
         color: green;
 }
 .carousel {
-        width: 683px;
-        height: 384px;
+        width: 52%;
+        height: auto;
         margin-top: 2%;
         margin-bottom: 3%;
 }
 .section a {
         font-family: 'Poppins', sans-serif;
         animation-name: titles;
-        animation-duration: 4s;
+        animation-duration: 6s;
         letter-spacing: 2px;
         color:black;  
+        font-size: 0.9rem;
 }
 @keyframes titles{
-        0% {color:green; letter-spacing: 0px;}
+        0% {color:green; letter-spacing: 0px; text-decoration: none;}
         100% {color:black; letter-spacing: 2px;} 
 }
 
 
 /* MEDIA QUERIES */ 
 
-@media screen and (max-width:799px) {
-
-        .section {
-                width: 100%;
-        }
+@media screen and (max-width:1200px) {
         .carousel {
-                width: 375.65px;
-                height: 211.2px;
-                margin-top: 15%;
+                width: 60%;
+                height: auto;
+                margin-top: 5%;
                 margin-bottom: 15%;
         }
         .section h2 {
                 font-size: 220%;
                 letter-spacing: 2px;
+                padding-top: 20px;
+        }
+}
+
+
+@media screen and (max-width:1000px) {
+
+        .section {
+                width: 100%;
+        }
+        .carousel {
+                width: 70%;
+                height: auto;
+                margin-top: 3%;
+                margin-bottom: 15%;
+        }
+        .section h2 {
+                font-size: 220%;
+                letter-spacing: 2px;
+                margin-top: 50px;
         }
         .section h2:hover {
                 font-size: 222%;
                 color: green;
+        }
+}
+
+@media  screen and (max-width:650px) {
+        .carousel {
+                width: 80%;
+                height: auto;
+                margin-top: 15%;
+                margin-bottom: 15%;
+        }
+}
+
+@media  screen and (max-width:400px) {
+        .carousel {
+                width: 80%;
+                height: auto;
+                margin-top: 15%;
+                margin-bottom: 15%;
+        }
+        .section h2 {
+                font-size: 180%;
+                letter-spacing: 2px;
+                padding-top: 20px;
+        }
+        .section {
+                width: 100%;
         }
 }
 

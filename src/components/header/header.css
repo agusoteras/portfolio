@@ -129,3 +129,32 @@ a:hover {
         padding: 0px;
     }
 }
+
+@media  screen and (max-width:400px) {
+    .titles h1{
+        font-weight: bold;
+        font-size: 2rem;
+        padding-bottom: 35px;
+        padding-top: 20px;
+    }
+    .titles h1:hover {
+        color: rgba(43, 153, 0, 0.856);
+        font-size: 2.1rem;
+    }
+    .titles h4 {
+        font-size: 1.2rem;
+    }
+    .titles h4:hover {
+        font-size: 1.3rem;
+    }
+}
+
+@media  screen and (max-width:300px) {
+    .titles h1{
+        font-size: 1.8rem;
+    }
+    .titles h1:hover {
+        color: rgba(43, 153, 0, 0.856);
+        font-size: 1.8rem;
+    }
+}
