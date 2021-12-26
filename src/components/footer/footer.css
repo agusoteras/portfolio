@@ -23,4 +23,17 @@
     font-family: 'Poppins', sans-serif;
     font-size: smaller;
     margin-top: 4px;
+    font-size: smaller;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact i {
+    color: azure;
+    margin-right: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: smaller;
 }

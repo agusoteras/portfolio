@@ -58,10 +58,10 @@ a:hover {
     padding-bottom: 14px;
     margin: auto;
     animation-name: title;
-    animation-duration: 6s;
+    animation-duration: 7s;
 }
 @keyframes title {
-    0% {letter-spacing: -8px;}
+    0% {letter-spacing: -9px;}
     100% {letter-spacing: 2px;}
 }
 .titles h1:hover {

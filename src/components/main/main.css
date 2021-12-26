@@ -44,11 +44,11 @@
     padding-left: 0px;
     padding-right: 0px;
     letter-spacing: 2px;
-    font-size: 2.9rem;
+    font-size: 3rem;
 }
 .article h2 span:hover {
     color: green;
-    font-size: 3rem;
+    font-size: 3.2rem;
 }
 .article ul {
     display: flex;
@@ -89,7 +89,7 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     font-size: smaller;
-    margin-top: 3px;
+    margin-top: 1rem;
 }
 .icons {
     height: 90%;

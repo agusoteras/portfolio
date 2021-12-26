@@ -22,8 +22,8 @@ const Main = () => {
                         <Switch>
                             <Route path="/profile">
                                 <div className='container profile'>
-                                    <p>Hola! mi nombre es Agu, soy un desarrollador Frontend de la ciudad de Cordoba, Argentina. Me especializo en la programacion con React.js tanto de aplicaciones como de sitios web y estoy en busca de experiencia profesional para desarrollar mi carrera en el mundo de la programación, espero que podamos trabajar juntos!  </p>
-                                    <a href='../../assets/curriculum.pdf' download="Curriculum.pdf" className='btn btn-dark'>Download CV</a>
+                                    <p>¡Hi! My name is Agu, I’m a Frontend developer from Córdoba, Argentina. I specialize in programming with React.js, both in applications and websites, so I’m looking for professional experience to develop my career in the programming world, I hope we could work together!  </p>
+                                    <a href={process.env.PUBLIC_URL + "/curriculum.pdf"} download="Curriculum.pdf" className='btn btn-dark'>Download CV</a>
                                 </div>
                             </Route>
 

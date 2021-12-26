@@ -13,7 +13,7 @@ const Header = () => {
                         <a href='#portfolio'>Portfolio</a>
                     </li>
                     <li className='btn btn-dark'>
-                        <a target="_blank" href='https://github.com/agusoteras'>GitHub</a>
+                        <a target="_blank" href='https://github.com/agusoteras/portfolio'>GitHub</a>
                     </li>
                 </ul>
             </nav>
