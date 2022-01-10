@@ -5,6 +5,7 @@ import crud from "../../assets/crud.png";
 import music from "../../assets/musicpage.png"
 import narr from "../../assets/narrador.png"
 import port from "../../assets/port.png"
+import cart from "../../assets/carrito.png"
 
 const Section = () => {
     return (
@@ -22,8 +23,9 @@ const Section = () => {
       
     </Carousel.Caption>
     <br></br>
-    <i class="fab fa-github"><a target="_blank" href='https://github.com/agusoteras/musicaWeb'> Check the code! </a></i>
+    <i class="fab fa-github"><a target="_blank" href='https://github.com/agusoteras/musicaWeb'> Check The Code! </a></i>
   </Carousel.Item>
+
   <Carousel.Item>
     <img
       className="d-block w-100"
@@ -35,7 +37,7 @@ const Section = () => {
     
     </Carousel.Caption>
     <br></br>
-    <i class="fab fa-github"><a className='check' target="_blank" href='https://github.com/agusoteras/CRUD---Lista-de-invitados'>Check the code!</a></i>
+    <i class="fab fa-github"><a className='check' target="_blank" href='https://github.com/agusoteras/CRUD---Lista-de-invitados'>Check The Code!</a></i>
   </Carousel.Item>
   <Carousel.Item>
     <img
@@ -48,7 +50,7 @@ const Section = () => {
     
     </Carousel.Caption>
     <br></br>
-    <i class="fab fa-github"><a target="_blank" href='https://github.com/agusoteras/Narrador'>Check the code!</a></i>
+    <i class="fab fa-github"><a target="_blank" href='https://github.com/agusoteras/Narrador'>Check The Code!</a></i>
   </Carousel.Item>
   
   <Carousel.Item>
@@ -62,9 +64,23 @@ const Section = () => {
     
     </Carousel.Caption>
     <br></br>
-    <i class="fab fa-github"><a target="_blank" href='https://github.com/agusoteras/portfolio'>Check the code!</a></i>
+    <i class="fab fa-github"><a target="_blank" href='https://github.com/agusoteras/portfolio'>Check The Code!</a></i>
   </Carousel.Item>
  
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={cart}
+      alt="Five slide"
+    />
+
+    <Carousel.Caption>
+    
+    </Carousel.Caption>
+    <br></br>
+    <i class="fab fa-github"><a target="_blank" href='https://github.com/agusoteras/Cart.git'>Check The Code!</a></i>
+  </Carousel.Item>
+
 
 </Carousel>
 
