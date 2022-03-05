@@ -11,22 +11,19 @@ const Main = () => {
                       <img src={profile}></img>
                  </div>
                  <div className='article'>
-                       <h2> <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span> <span>m</span><span>e</span><span>.</span><span>.</span><span>.</span> </h2>
+                        <div className='about-title'>
+                              <h2> <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span> <span>m</span><span>e</span><span>.</span><span>.</span><span>.</span> </h2>
+                        </div>
+                        
                         <nav>
                             <ul>
-                                <li> <Link to="/profile">Profile</Link> </li>
+                                <li> <Link to="/">Profile</Link> </li>
                                 <li> <Link to="/skills">Skills</Link> </li>
                                 <li> <Link to="/education">Education</Link> </li>
                             </ul>
                         </nav>
                         <Switch>
-                            <Route path="/profile">
-                                <div className='container profile'>
-                                    <p>¡Hi! My name is Agu, I’m a Frontend developer from Córdoba, Argentina. I specialize in programming with React.js, both in applications and websites, so I’m looking for professional experience to develop my career in the programming world, I hope we could work together!  </p>
-                                    <a href={process.env.PUBLIC_URL + "/curriculum.pdf"} download="Curriculum.pdf" className='btn btn-dark'>Download CV</a>
-                                </div>
-                            </Route>
-
+                            
                             <Route path="/skills">
                                 <div className='container-fluid icons'>
                                       <i class="fab fa-html5"><br></br> HTML</i>
@@ -43,9 +40,17 @@ const Main = () => {
                                   <div className='container-fluid education'>                            
                                       <i class="fas fa-laptop-code"> Fullstack programming course taken in "Mundos E"</i>
                                       <i class="fab fa-react"> Certification in React.js taken in "Educacion IT"</i>
+                                      <i class="fa fa-vial"> Professional testing master taken in "Universidad Tecnológica Nacional, Buenos Aires"</i>
                                       <i class="fas fa-headset"> IT recruitment course taken in "Capacitarte"</i>
-                                      <i class="fas fa-briefcase"> Technical degree in human resources dictated <br></br><br></br> in "Colegio Universitario IES Siglo 21" </i>
+                                      <i class="fas fa-briefcase"> Technical degree in human resources dictated in "Colegio Universitario IES Siglo 21" </i>
                                   </div>
+                            </Route>
+
+                            <Route path="/">
+                                <div className='container profile'>
+                                    <p>¡Hi! My name is Agu, I’m a Frontend developer from Córdoba, Argentina. I specialize in programming with React.js, both in applications and websites, so I’m looking for professional experience to develop my career in the programming world, I hope we could work together!  </p>
+                                    <a href={process.env.PUBLIC_URL + "/curriculum.pdf"} download="Curriculum.pdf" className='btn btn-dark'>Download CV</a>
+                                </div>
                             </Route>
                         </Switch>
                         
